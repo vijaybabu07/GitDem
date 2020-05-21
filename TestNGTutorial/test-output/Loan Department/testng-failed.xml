@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Loan Department]">
+  <listeners>
+    <listener class-name="testpack.Listeners"/>
+  </listeners>
+  <test name="Personal Loan(failed)">
+    <classes>
+      <class name="testpack.Day1">
+        <methods>
+          <include name="demo"/>
+          <include name="Afsuite"/>
+          <include name="posttest"/>
+        </methods>
+      </class> <!-- testpack.Day1 -->
+      <class name="testpack.Day2">
+        <methods>
+          <include name="Afclass"/>
+          <include name="Prerequisite"/>
+          <include name="Afmethod"/>
+        </methods>
+      </class> <!-- testpack.Day2 -->
+      <class name="testpack.Day3">
+        <methods>
+          <include name="Afclass"/>
+          <include name="Bfclass"/>
+          <include name="Bfsuite"/>
+          <include name="Bfmethod"/>
+        </methods>
+      </class> <!-- testpack.Day3 -->
+    </classes>
+  </test> <!-- Personal Loan(failed) -->
+</suite> <!-- Failed suite [Loan Department] -->

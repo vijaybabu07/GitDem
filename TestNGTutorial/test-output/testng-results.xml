@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="1" total="7" passed="6">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Loan Department" duration-ms="132" started-at="2020-05-20T17:40:25Z" finished-at="2020-05-20T17:40:25Z">
+    <groups>
+      <group name="smoke">
+        <method signature="Day1.demo()[pri:0, instance:testpack.Day1@3c756e4d]" name="demo" class="testpack.Day1"/>
+        <method signature="Day3.mobileSignInCarloan()[pri:0, instance:testpack.Day3@62ee68d8]" name="mobileSignInCarloan" class="testpack.Day3"/>
+      </group> <!-- smoke -->
+    </groups>
+    <test name="Personal Loan" duration-ms="56" started-at="2020-05-20T17:40:25Z" finished-at="2020-05-20T17:40:25Z">
+      <class name="testpack.Day4">
+        <test-method status="PASS" signature="apiloginHomeloan()[pri:0, instance:testpack.Day4@7c0e2abd]" name="apiloginHomeloan" duration-ms="4" started-at="2020-05-20T23:10:25Z" finished-at="2020-05-20T23:10:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- apiloginHomeloan -->
+      </class> <!-- testpack.Day4 -->
+      <class name="testpack.Day2">
+        <test-method status="PASS" signature="Prerequisite()[pri:0, instance:testpack.Day2@4de8b406]" name="Prerequisite" is-config="true" duration-ms="0" started-at="2020-05-20T23:10:25Z" finished-at="2020-05-20T23:10:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Prerequisite -->
+        <test-method status="PASS" signature="ThirdTest()[pri:0, instance:testpack.Day2@4de8b406]" name="ThirdTest" duration-ms="4" started-at="2020-05-20T23:10:25Z" finished-at="2020-05-20T23:10:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ThirdTest -->
+        <test-method status="PASS" signature="Afmethod()[pri:0, instance:testpack.Day2@4de8b406]" name="Afmethod" is-config="true" duration-ms="0" started-at="2020-05-20T23:10:25Z" finished-at="2020-05-20T23:10:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Afmethod -->
+        <test-method status="PASS" signature="Afclass()[pri:0, instance:testpack.Day2@4de8b406]" name="Afclass" is-config="true" duration-ms="0" started-at="2020-05-20T23:10:25Z" finished-at="2020-05-20T23:10:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Afclass -->
+      </class> <!-- testpack.Day2 -->
+      <class name="testpack.Day1">
+        <test-method status="FAIL" signature="demo()[pri:0, instance:testpack.Day1@3c756e4d]" name="demo" duration-ms="12" started-at="2020-05-20T23:10:25Z" finished-at="2020-05-20T23:10:25Z">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:513)
+	at org.testng.Assert.assertTrue(Assert.java:42)
+	at org.testng.Assert.assertTrue(Assert.java:52)
+	at testpack.Day1.demo(Day1.java:19)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:646)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:823)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1131)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:778)
+	at org.testng.TestRunner.run(TestRunner.java:632)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:268)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1225)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1150)
+	at org.testng.TestNG.runSuites(TestNG.java:1075)
+	at org.testng.TestNG.run(TestNG.java:1047)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:126)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:137)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:58)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- demo -->
+        <test-method status="PASS" signature="secondtest()[pri:0, instance:testpack.Day1@3c756e4d]" name="secondtest" duration-ms="0" started-at="2020-05-20T23:10:25Z" finished-at="2020-05-20T23:10:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- secondtest -->
+        <test-method status="PASS" signature="posttest()[pri:0, instance:testpack.Day1@3c756e4d]" name="posttest" is-config="true" duration-ms="0" started-at="2020-05-20T23:10:25Z" finished-at="2020-05-20T23:10:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- posttest -->
+      </class> <!-- testpack.Day1 -->
+    </test> <!-- Personal Loan -->
+    <test name="Car Loan" duration-ms="24" started-at="2020-05-20T17:40:25Z" finished-at="2020-05-20T17:40:25Z">
+      <class name="testpack.Day3">
+        <test-method status="PASS" signature="Bfsuite()[pri:0, instance:testpack.Day3@62ee68d8]" name="Bfsuite" is-config="true" duration-ms="12" started-at="2020-05-20T23:10:25Z" finished-at="2020-05-20T23:10:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Bfsuite -->
+        <test-method status="PASS" signature="Bfmethod()[pri:0, instance:testpack.Day3@62ee68d8]" name="Bfmethod" is-config="true" duration-ms="0" started-at="2020-05-20T23:10:25Z" finished-at="2020-05-20T23:10:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Bfmethod -->
+        <test-method status="PASS" signature="mobileSignInCarloan()[pri:0, instance:testpack.Day3@62ee68d8]" name="mobileSignInCarloan" duration-ms="0" started-at="2020-05-20T23:10:25Z" finished-at="2020-05-20T23:10:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- mobileSignInCarloan -->
+        <test-method status="PASS" signature="Bfclass()[pri:0, instance:testpack.Day3@62ee68d8]" name="Bfclass" is-config="true" duration-ms="0" started-at="2020-05-20T23:10:25Z" finished-at="2020-05-20T23:10:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Bfclass -->
+        <test-method status="PASS" signature="webloginCarloan()[pri:0, instance:testpack.Day3@62ee68d8]" name="webloginCarloan" duration-ms="8" started-at="2020-05-20T23:10:25Z" finished-at="2020-05-20T23:10:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- webloginCarloan -->
+        <test-method status="PASS" signature="Bfmethod()[pri:0, instance:testpack.Day3@62ee68d8]" name="Bfmethod" is-config="true" duration-ms="0" started-at="2020-05-20T23:10:25Z" finished-at="2020-05-20T23:10:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Bfmethod -->
+        <test-method status="PASS" signature="apiloginCarloan()[pri:0, instance:testpack.Day3@62ee68d8]" name="apiloginCarloan" duration-ms="0" started-at="2020-05-20T23:10:25Z" depends-on-methods="testpack.Day3.webloginCarloan" finished-at="2020-05-20T23:10:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- apiloginCarloan -->
+        <test-method status="PASS" signature="Bfmethod()[pri:0, instance:testpack.Day3@62ee68d8]" name="Bfmethod" is-config="true" duration-ms="0" started-at="2020-05-20T23:10:25Z" finished-at="2020-05-20T23:10:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Bfmethod -->
+        <test-method status="PASS" signature="Afclass()[pri:0, instance:testpack.Day3@62ee68d8]" name="Afclass" is-config="true" duration-ms="0" started-at="2020-05-20T23:10:25Z" finished-at="2020-05-20T23:10:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Afclass -->
+      </class> <!-- testpack.Day3 -->
+      <class name="testpack.Day1">
+        <test-method status="PASS" signature="Afsuite()[pri:0, instance:testpack.Day1@3c756e4d]" name="Afsuite" is-config="true" duration-ms="0" started-at="2020-05-20T23:10:25Z" finished-at="2020-05-20T23:10:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Afsuite -->
+      </class> <!-- testpack.Day1 -->
+    </test> <!-- Car Loan -->
+  </suite> <!-- Loan Department -->
+</testng-results>
